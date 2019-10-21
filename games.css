@@ -1,10 +1,10 @@
 .banner
 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 150px;
 	font-family: georgia;
 	color: White;
-	background-image: url("Images/header1.jpg"); width: 100%;
+	background-image: url("Images/header1.jpg");
 }
 
 .navbar
@@ -21,7 +21,7 @@
 
 .sites 
 {
-  float: left;
+	float: left;
 }
 
 .sites a 
@@ -62,32 +62,34 @@
 
 #table th 
 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: black;
-  color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: black;
+	color: white;
 }
 
 h1,h2,h3
 {
 	text-align: center;
+	color: Black;	
 }
 
 p
 {
 	text-align: center;
 	margin: 60px;
+	color: Black;	
 }
 
 body
 {
-	background-color: Lightgrey;
+	color: Black;	
 }
 
 ul
 {
-	  list-style-position: inside;
+	list-style-position: inside;
 }
 
 #tribute
@@ -98,7 +100,8 @@ ul
 	width: 100%;
 }
 
-#tribute td, #tribute th {
+#tribute td, #tribute th 
+{
 	border: 1px solid #ddd;
 	padding: 8px;
 }
@@ -110,10 +113,67 @@ ul
 
 #tribute th 
 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: white;
-  color: black;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: white;
+	color: black;
 }
+	
+.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+}
+
+footer
+{
+	background-color: Black;
+	color: Darkgray;
+	width: 100%; 
+	height: 200px;
+}
+
+div.column-wrapper 
+
+{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+body 
+{
+	background-image: url("Images/imaging.jpg");
+	height: 0;
+	width: 0;
+}
+
+mark 
+{ 
+	background-color: white;
+	color: black;
+}
+
+#center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+}
+
+#centers
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+}
+
+	
 	
