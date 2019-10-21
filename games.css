@@ -89,3 +89,31 @@ ul
 {
 	  list-style-position: inside;
 }
+
+#tribute
+{
+	width : 50%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tribute td, #tribute th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tribute tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+#tribute th 
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+	
