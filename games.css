@@ -149,8 +149,8 @@ div.column-wrapper
 body 
 {
 	background-image: url("Images/imaging.jpg");
-	height: 0;
-	width: 0;
+	height: 600;
+	width: 20000
 }
 
 mark 
